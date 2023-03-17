@@ -122,3 +122,33 @@
     padding-left: 50px;
     }
 
+.cardimg{
+    display: flex;
+    justify-content: center;
+    margin-left: -60px;
+}
+
+.cardimg img{
+    transition: 1s;
+}
+
+.cardimg img:hover {
+    transform: scale(1.2);
+}
+
+.cardimg img[src="img/94a5e1825e3756698cbeba14ed50060b.jpg"]:hover {
+    content: url("img/pokemon_card_backside_in_high_resolution_by_atomicmonkeytcg_dah43cy-pre.png");
+}
+
+.cardimg img[src="img/best-pokemon-legend-cards.jpg"]:hover{
+    content: url("img/pokemon_card_backside_in_high_resolution_by_atomicmonkeytcg_dah43cy-pre.png");
+}
+
+.cardimg img[src="img/best-pokemon-legend-cards%20(1).jpg"]:hover{
+    content: url("img/pokemon_card_backside_in_high_resolution_by_atomicmonkeytcg_dah43cy-pre.png");
+}
+
+.cardimg img[src="img/best-pokemon-legend-cards%20(2).jpg"]:hover{
+    content: url("img/pokemon_card_backside_in_high_resolution_by_atomicmonkeytcg_dah43cy-pre.png");
+}
+
