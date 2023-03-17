@@ -129,11 +129,12 @@
 }
 
 .cardimg img{
-    transition: 1s;
 }
 
 .cardimg img:hover {
-    transform: scale(1.2);
+
+    transform: scale(1);
+    transition: 10s;
 }
 
 .cardimg img[src="img/94a5e1825e3756698cbeba14ed50060b.jpg"]:hover {
@@ -152,3 +153,17 @@
     content: url("img/pokemon_card_backside_in_high_resolution_by_atomicmonkeytcg_dah43cy-pre.png");
 }
 
+.Footer{
+    width: 152px;
+    height: 40px;
+    margin-top: 120px;
+    margin-left: -20px;
+    display: flex;
+    justify-content: center;
+    background-color: #11476d;
+}
+.Footer p{
+    height: 18px;
+    margin-top: 10px;
+    color: white;
+}
