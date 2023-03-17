@@ -1,3 +1,5 @@
+.background{
+}
 .Navbar{
     width: auto;
     height: 70px;
@@ -21,15 +23,102 @@
     text-shadow: 2px 2px black;
 }
 
+.logoname h1{
+    height: 20px;
+    align-content: center;
+}
+
 .logo img{
     width: auto;
     height: 50px;
     margin-right: 10px;
 }
 .Navbar p{
-    border-style: solid;
     width: 100px;
 
 }
 
+.Navbar2{
+    height: 50px;
+    width: auto;
+    margin-left: -10px;
+    margin-right:-10px;
+    background-color: #11476d;
+    align-content: center;
+    align-items: center;
+}
+
+.Navbar2 table{
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+.Navbar2 table td{
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 20px;
+    color: white;
+    padding-top: 10px;
+    text-shadow: 2px 2px #75787b;
+
+
+}
+
+.Navbar2 table td:hover{
+    color: #add8e6;
+}
+
+.listcard{
+    margin-top: 20px;
+    margin-left: 10px;
+    position: relative;
+}
+.image5{
+    display: none;
+}
+
+.cardimg img{
+    width: auto;
+    height: 350px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 50px;
+
+}
+
+
+
+.namecard{
+    width: 1465px;
+    float: left;
+    padding-left: 50px;
+}
+
+.namecard p{
+    float: left;
+    margin-left: 110px;
+    margin-right: 200px;
+}
+
+.button button{
+    margin-top: 5px;
+    width: 100px;
+    margin-left: 110px;
+    margin-right: 180px;
+    color: white;
+    background-color: #add8e6;
+    border-radius: 10px;
+    border-color: white;
+
+}
+
+.button{
+    width: 1465px;
+    float: left;
+    padding-left: 50px;
+    }
 
